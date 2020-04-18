@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { ART } from 'react-native';
+import ART from '@react-native-community/art';
 const { Shape, Path } = ART;
 
 export default class Circle extends Component {
@@ -18,6 +18,6 @@ export default class Circle extends Component {
       .arc(0, radius * -2, radius)
       .close();
 
-    return <Shape {...this.props} d={path}/>;
+    return <Shape {...this.props} d={path} />;
   }
 }

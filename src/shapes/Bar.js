@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { ART } from 'react-native';
+import ART from '@react-native-community/art';
 const { Shape, Path } = ART;
 
 export default class Bar extends Component {
@@ -20,6 +20,6 @@ export default class Bar extends Component {
       .line(-width, 0)
       .close();
 
-    return <Shape {...this.props} d={path}/>;
+    return <Shape {...this.props} d={path} />;
   }
 }
