@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Animated } from 'react-native';
-import ART from '@react-native-community/art';
+import { ART } from '@react-native-community/art';
 const { Surface } = ART;
 
 import Circle from './animated/Circle';
