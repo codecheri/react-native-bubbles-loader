@@ -1,8 +1,6 @@
 # react-native-loader
 A collection of animated spinners for react native using ReactART.
 
-![Demo](http://f.cl.ly/items/2W0s3L1s3H2W1i2l3q14/react-native-loader.gif)
-
 # Usage
 ## Installation
 Install it via npm:
@@ -19,14 +17,11 @@ For iOS, add `ART.xcodeproj` from `node_modules/react-native/Libraries/ART` to y
 
 ## How to use
 ```jsx
-import { Bubbles, DoubleBounce, Bars, Pulse } from 'react-native-loader';
+import { Bubbles} from 'react-native-bubbles-loader';
 
 // ...
 <View>
   <Bubbles size={10} color="#FFF" />
-  <Bars size={10} color="#FDAAFF" />
-  <Pulse size={10} color="#52AB42" />
-  <DoubleBounce size={10} color="#1CAFF6" />
 </View>
 
 ```
