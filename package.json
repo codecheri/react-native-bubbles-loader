@@ -1,5 +1,5 @@
 {
-  "name": "react-native-loader",
+  "name": "react-native-bubbles-loader",
   "version": "1.2.1",
   "description": "A collection of loading spinners animated for react native",
   "main": "index.js",
